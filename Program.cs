@@ -57,7 +57,7 @@ namespace AzureFridayToJson
                                 writer.WriteValue(reader.GetString(11));
 
                                 writer.WritePropertyName("EmbedUrl");
-                                writer.WriteValue($"{reader.GetString(11)}player");
+                                writer.WriteValue($"{reader.GetString(11)}/player");
                                 /*
                                 <iframe src="https://channel9.msdn.com/Shows/Azure-Friday/Erich-Gamma-introduces-us-to-Visual-Studio-Online-integrated-with-the-Windows-Azure-Portal-Part-1/player" width="960" height="540" allowFullScreen frameBorder="0"></iframe>
                                  */
